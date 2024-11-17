@@ -20,4 +20,11 @@ if(global.star > 0)
 	/// @DnDApplyTo : {O_bulletEnemy}
 	/// @DnDParent : 08CAB50F
 	with(O_bulletEnemy) instance_destroy();
+
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 6240872F
+	/// @DnDApplyTo : {O_bulletEnemy2}
+	/// @DnDParent : 08CAB50F
+	with(O_bulletEnemy2) instance_destroy();
 }
